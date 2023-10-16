@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'; // Importa el componente App
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App /> {/* Renderiza el componente App dentro del elemento root */}
+    <App />
   </React.StrictMode>,
-  document.getElementById('root') // Encuentra el elemento con el id "root" en tu HTML
+  document.getElementById('root')
 );
